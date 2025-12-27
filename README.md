@@ -5,6 +5,8 @@ directory paths and youtube music links. `download-music.fish`
 reads `music.txt` and downloads all music with `yt-dlp` in
 `./downloaded-music`.
 
+If you're downloading age restriced music; install chrome and login to youtube for the cookies to do so.
+
 ## Dependencies
 
 - Fish Shell
