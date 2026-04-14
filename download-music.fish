@@ -1,7 +1,5 @@
 #!/usr/bin/env fish
 
-jj show && jj describe -m '$(date)' && jj git fetch && jj rebase -r @ -d main && jj bookmark set -r @ main && jj git push
-
 set line_count $(cat music.txt | wc --lines)
 set progress 0
 
